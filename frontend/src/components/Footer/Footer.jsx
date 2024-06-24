@@ -26,7 +26,11 @@ const Footer = () => {
             <li>Home</li>
             <li>About us</li>
             <li>
-              <a href="https://food-delivery-website-admin-msgk.onrender.com">
+              <a
+                href="https://food-delivery-website-admin-msgk.onrender.com"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Admin
               </a>
             </li>
