@@ -15,8 +15,8 @@ const port = process.env.PORT || 4000;
 app.use(express.json());
 
 const allowedOrigins = [
-  "https://food-delivery-website-frontend-7dpg.onrender.com/",
-  "https://food-delivery-website-admin-msgk.onrender.com/",
+  "https://food-delivery-website-frontend-7dpg.onrender.com",
+  "https://food-delivery-website-admin-msgk.onrender.com",
   "http://localhost:5173",
   "http://localhost:5174",
 ];
