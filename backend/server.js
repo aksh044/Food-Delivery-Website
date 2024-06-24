@@ -19,7 +19,7 @@ const allowedOrigins = [
   "https://food-delivery-website-admin-msgk.onrender.com",
   "http://localhost:5173",
   "http://localhost:5174",
-  "http://www.nyahari.tech",
+  "https://nyahari.tech",
 ];
 
 app.use(
