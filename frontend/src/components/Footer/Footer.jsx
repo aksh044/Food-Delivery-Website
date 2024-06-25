@@ -1,4 +1,3 @@
-import React from "react";
 import "./Footer.css";
 import { assets } from "../../assets/assets";
 
@@ -9,10 +8,9 @@ const Footer = () => {
         <div className="footer-content-left">
           <img id="logo" src={assets.logo} alt="" />
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
+            Hungry for more? Explore our FAQs for ordering tips, delivery
+            details, and our commitment to fresh, delicious food. We&apos;re
+            happy to answer any questions you may have!
           </p>
           <div className="footer-social-icons">
             <img src={assets.facebook_icon} alt="" />
@@ -40,14 +38,14 @@ const Footer = () => {
         <div className="footer-content-right">
           <h2>GET IN TOUCH</h2>
           <ul>
-            <li>+1-212-456-7890</li>
-            <li>contact@tomato.com</li>
+            <li>4242 4242 4242 4242</li>
+            <li>akshaychaudhari.contact@gmail.com</li>
           </ul>
         </div>
       </div>
       <hr />
       <p className="footer-copyright">
-        Copyright 2024 © Tomato.com - All Right Reserved.
+        Copyright 2024 © Nyahari.tech - All Right Reserved.
       </p>
     </div>
   );

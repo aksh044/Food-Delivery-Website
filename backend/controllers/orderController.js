@@ -4,7 +4,8 @@ import Stripe from "stripe";
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
 // const frontendUrl = "http://localhost:5173";
-const frontendUrl = "https://food-delivery-website-frontend-7dpg.onrender.com";
+// const frontendUrl = "https://food-delivery-website-frontend-7dpg.onrender.com";
+const frontendUrl = "https://nyahari.tech";
 // Placing User Order for Frontend
 const placeOrder = async (req, res) => {
   try {
