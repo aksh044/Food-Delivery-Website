@@ -19,7 +19,7 @@ const foodRouter = express.Router();
 const uploadDir = path.join(__dirname, "../uploads");
 mkdirp.sync(uploadDir); // Create the uploads directory if it doesn't exist
 
-// Image Storage Engine (Saving Image to /uploads folder & rename it)
+// Saving Image rename it
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
     cb(null, uploadDir);
